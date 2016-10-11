@@ -18,7 +18,8 @@ h1{
 	display: inline-block;
 	font-weight: 100;
 	text-align: center;
-	font-size: 30px;
+	font-size: 40px;
+	/*background-color: red;*/
 }
 
 #clockdiv > div{
@@ -33,6 +34,16 @@ h1{
 	border-radius: 3px;
 	background: #00816A;
 	display: inline-block;
+}
+
+.middleDiv {
+    position : absolute;
+    width    : 500px;
+    height   : 200px;
+    left     : 34%;
+    top      : 40%;
+    margin-left : -30px; /* half of the width  */
+    margin-top  : -30px; /* half of the height */
 }
 
 .smalltext{
