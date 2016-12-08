@@ -50,3 +50,24 @@ h1{
 	padding-top: 5px;
 	font-size: 16px;
 }
+
+@-webkit-keyframes blink {
+        0%   { background:grey; }
+        50%  { background:green;}
+        100% { background:grey; }
+}
+@-moz-keyframes blink {
+        0%   { background:grey; }
+        50%  { background:green;}
+        100% { background:grey; }
+}
+@-ms-keyframes blink {
+        0%   { background:grey; }
+        50%  { background:green;}
+        100% { background:grey; }
+}
+body{
+     -webkit-animation: blink 3s infinite;
+     -moz-animation:    blink 3s infinite;
+     -ms-animation:     blink 3s infinite;
+}
